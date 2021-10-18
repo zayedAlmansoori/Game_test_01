@@ -33,7 +33,7 @@ def give_raise(emp, amount):
 
 
 if __name__ == '__main__':
-    k = peeps.Employee('karima', 1700)
+    k = peeps.Employee('Bob', 1500)
     try:
         pass
     except Exception as e:
