@@ -7,7 +7,7 @@ import os
 class Employee(peeps.Person):
     def __init__(self, name, salary):
         """
-        Employee
+        Employee constructor
         :param name: employee name
         :param salary: employee salary
         """

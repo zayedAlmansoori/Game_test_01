@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import peeps
 
-
 def calc_salary(emp):
     """
     calculates annual salary
@@ -14,7 +13,7 @@ def calc_salary(emp):
         salary = emp.salary * 12
         return salary
 
-def give_raise(emp, amount):
+def give_raise(emp, amount=None):
     """
     raises an employee's salary by the given amount.
     :param emp: Employee instance
@@ -28,6 +27,7 @@ def give_raise(emp, amount):
         print(f'{emp.name} received a {amount} raise.')
         emp.update()
         print(emp)
+
 
 
 
